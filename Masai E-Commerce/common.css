@@ -1,0 +1,47 @@
+*{
+    font-family: sans-serif;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+}
+#logo{
+    height: 20px;
+    margin: 15%;
+    cursor: pointer;
+}
+#text{
+    display: flex;
+    color: white;
+}
+h3{
+    padding-left: 50px;
+    padding-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#user{
+    display: flex;
+
+}
+#products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+#mens,#womens{
+    cursor: pointer;
+}
+#priceSort,#nameSort{
+    border: 0px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
